@@ -21,7 +21,7 @@ const Navbar = () => {
                             <h3>Shop by Category</h3>
                         </Flex>
                     </div>
-                    <div className="lg:w-2/4 mt-2 lg:mt-0   w-full flex justify-center lg:justify-start">
+                    <div className="lg:w-2/4 mt-2 lg:mt-0   w-full justify-center lg:justify-start">
                         <div className="relative">
                             <input type="text" placeholder='Search Products' className='w-full bg-white py-3 pl-3'
                              />
@@ -30,7 +30,7 @@ const Navbar = () => {
                         </div>
                         </div>
                     </div>
-                    <div className="lg:w-1/4 mt-2 lg:mt-0  w-full flex justify-center lg:justify-start">
+                    <div className="lg:w-1/4 mt-2 lg:mt-0  w-full flex justify-center ">
                     <Flex className=" mt-2 lg:mt-0  flex gap-6 justify-end">
                         <div className="flex">
                             <FaUser />
