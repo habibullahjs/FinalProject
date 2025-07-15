@@ -40,7 +40,7 @@ const Navbar = () => {
     return (
         <nav className={`bg-[#F5F5F3] py-2 lg:mt-0`}>
             <Container>
-                <div className="items-center flex flex-wrap">
+                <div className="items-center flex ">
                     <div className="w-full lg:w-1/4 relative">
                         <div className="flex items-center gap-2" ref={cateRef}>
                             <div className="">
@@ -51,7 +51,7 @@ const Navbar = () => {
                             </h3>
                         </div>
                         {cateShow && (
-                            <div className="lg:bg-[#262626] bg-[red] py-3 absolute left-0 top-[43px] w-full">
+                            <div className="bg-[#262626] py-3 absolute left-0 right-0 top-[40px]  lg:w-sm w-xs">
                                 <ul>
                                     <li className="py-2 relative text-[rgba(255,255,255,0.7)] pl-[20px] hover:text-[#fff] hover:pl-[30px] duration-300 ease-in-out font-dm text-[16px] border-b-[1px] border-[rgba(255,255,255,0.7)]">
                                         <div className="flex justify-between">
@@ -100,7 +100,7 @@ const Navbar = () => {
                             </div>
                         </div>
                         {accShow && (
-                            <div className="w-[200px] absolute left-[30%] top-[41px]">
+                            <div className="w-[200px] absolute lg:left-[30%] left-[-186%] top-[41px]">
                                 <ul>
                                     <li className="py-3 px-4 bg-[#262626] text-white font-dm text-[16px] text-center hover:text-[#222] hover:bg-[#fff] duration-300 ease-in-out">
                                         My Account
@@ -112,7 +112,7 @@ const Navbar = () => {
                             </div>
                         )}
                         {cartshow && (
-                            <div className="absolute left-0 top-[40px] w-full">
+                            <div className="absolute lg:left-0 left-[-300%] right-0 top-[40px] w-xs bg-[#F5F5F3]">
                                 <div className="flex items-center justify-around bg-[#F5F5F3]">
                                     <div className="">
                                         <img src={CartImage} alt="" />
