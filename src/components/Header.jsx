@@ -8,9 +8,8 @@ import { RxCross1 } from 'react-icons/rx'
 const Header = () => {
   let [show, setShow] = useState(false)
 
-
   return (
-    <div className={`lg:py-2 ${show ? "mb-0" : "mb-8 lg:mb-0"}`}>
+    <div className={` sticky py-[20px]  top-0  z-10 bg-[#FFFFFF] lg:py-2 ${show ? "mb-0" : "mb-8 lg:mb-0"}`}>
       <Container>
         <Flex className= 'flex items-center'>
           <div className="w-1/3">

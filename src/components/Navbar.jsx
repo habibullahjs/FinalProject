@@ -38,7 +38,7 @@ const Navbar = () => {
 
 
     return (
-        <nav className={`bg-[#F5F5F3] py-2 lg:mt-0`}>
+        <nav className={`sticky top-12 z-10 bg-[#F5F5F3] py-2 lg:mt-0`}>
             <Container>
                 <div className="items-center flex ">
                     <div className="w-full lg:w-1/4 relative">
