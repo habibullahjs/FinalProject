@@ -20,19 +20,19 @@ const Header = () => {
           <div className="">
             <ul className={`lg:flex gap-[40px] pb-2 text-center mt-2 duration-300 ease-in-out ${show == true ? "bg-[#302f2f] mt-0" : " lg:mt-0 mt-[-180px] "}`}>
               <li>
-                <a className='text-[14px] font-dms font-normal lg:text-[#767676] text-white lg:hover:text-[#262626] hover:text-blue-100 duration-300 ease-in-out' href="#">Home</a>
+                <a className='text-[14px] font-dms font-normal lg:text-[#767676] text-white lg:hover:text-[#262626] hover:text-blue-100 duration-300 ease-in-out' href="/">Home</a>
               </li>
               <li>
-                <a className='text-[14px] font-dms font-normal lg:text-[#767676] text-white lg:hover:text-[#262626] hover:text-blue-100 duration-300 ease-in-out' href="#">Shop</a>
+                <a className='text-[14px] font-dms font-normal lg:text-[#767676] text-white lg:hover:text-[#262626] hover:text-blue-100 duration-300 ease-in-out' href="shop">Shop</a>
               </li>
               <li>
-                <a className='text-[14px] font-dms font-normal lg:text-[#767676] text-white lg:hover:text-[#262626] hover:text-blue-100 duration-300 ease-in-out' href="#">About</a>
+                <a className='text-[14px] font-dms font-normal lg:text-[#767676] text-white lg:hover:text-[#262626] hover:text-blue-100 duration-300 ease-in-out' href="about">About</a>
               </li>
               <li>
-                <a className='text-[14px] font-dms font-normal lg:text-[#767676] text-white lg:hover:text-[#262626] hover:text-blue-100 duration-300 ease-in-out' href="#">Contacts</a>
+                <a className='text-[14px] font-dms font-normal lg:text-[#767676] text-white lg:hover:text-[#262626] hover:text-blue-100 duration-300 ease-in-out' href="contact">Contacts</a>
               </li>
               <li>
-                <a className='text-[14px] font-dms font-normal lg:text-[#767676] text-white lg:hover:text-[#262626] hover:text-blue-100 duration-300 ease-in-out' href="#">Journal</a>
+                <a className='text-[14px] font-dms font-normal lg:text-[#767676] text-white lg:hover:text-[#262626] hover:text-blue-100 duration-300 ease-in-out' href="journal">Journal</a>
               </li>
             </ul>
           </div>
